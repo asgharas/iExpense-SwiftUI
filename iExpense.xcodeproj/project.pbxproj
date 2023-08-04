@@ -14,6 +14,7 @@
 		185B8F422A4C02E900F7FF69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B8F412A4C02E900F7FF69 /* Preview Assets.xcassets */; };
 		188B5E6D2A75C6AA009F3DDC /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B5E6C2A75C6AA009F3DDC /* ExpenseItem.swift */; };
 		188B5E6F2A75C728009F3DDC /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B5E6E2A75C728009F3DDC /* Expenses.swift */; };
+		189591252A7D25790002AD87 /* iExpense Preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 189591242A7D25790002AD87 /* iExpense Preview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		185B8F412A4C02E900F7FF69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		188B5E6C2A75C6AA009F3DDC /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		188B5E6E2A75C728009F3DDC /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		189591242A7D25790002AD87 /* iExpense Preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "iExpense Preview.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		185B8F2E2A4C02E500F7FF69 = {
 			isa = PBXGroup;
 			children = (
+				189591232A7D255D0002AD87 /* Preview */,
 				185B8F392A4C02E500F7FF69 /* iExpense */,
 				185B8F382A4C02E500F7FF69 /* Products */,
 			);
@@ -74,6 +77,14 @@
 				185B8F412A4C02E900F7FF69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		189591232A7D255D0002AD87 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				189591242A7D25790002AD87 /* iExpense Preview.gif */,
+			);
+			path = Preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			files = (
 				185B8F422A4C02E900F7FF69 /* Preview Assets.xcassets in Resources */,
 				185B8F3F2A4C02E900F7FF69 /* Assets.xcassets in Resources */,
+				189591252A7D25790002AD87 /* iExpense Preview.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
